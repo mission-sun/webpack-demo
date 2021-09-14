@@ -1,7 +1,7 @@
 import { a }from './a';
-import { b } from './b';
+import { B } from './b';
 
 export {
 	a,
-	b
+	B
 }

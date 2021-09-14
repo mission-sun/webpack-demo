@@ -1,5 +1,6 @@
-// import { sub, add } from './demo/1.sign';
-// console.log(sub(11111111111,3));
+import { Apple } from './demo/common'
+const appleModel = new Apple({
+  model: 'IphoneX'
+}).getModel()
 
-import {a, b} from './demo/3.sideEffect';
-console.log('输出a', a);
+console.log(appleModel)
